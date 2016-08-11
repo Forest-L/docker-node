@@ -3,4 +3,4 @@ FROM alpine
 MAINTAINER Zongmin Lei <leizongmin@gmail.com>
 
 RUN apk update && apk upgrade
-RUN apk add nodejs-dev
+RUN apk add nodejs
